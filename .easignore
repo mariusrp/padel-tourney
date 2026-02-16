@@ -1,0 +1,62 @@
+# JetBrains
+
+.idea/
+_.iml
+_.iws
+\*.ipr
+.fleet/
+
+# JetBrains cache
+
+Library/
+
+# Node
+
+node_modules/
+
+# Expo
+
+.expo/
+.expo-shared/
+
+# macOS
+
+.DS_Store
+
+# Logs
+
+_.log
+npm-debug.log_
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+
+dist/
+build/
+
+```
+
+## 2. Oppdater `.gitignore`
+
+Sjekk at din `.gitignore` også inkluderer:
+```
+
+# JetBrains
+
+.idea/
+\*.iml
+Library/
+
+# Expo
+
+.expo/
+.expo-shared/
+
+# Node
+
+node_modules/
+
+# macOS
+
+.DS_Store
